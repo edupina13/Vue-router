@@ -9,6 +9,11 @@ const routes = [
         redirect: '/inicio'
 
     },
+      {
+        path: '/formulario',
+        name:'formulario',
+        component: () => import('../components/Formulario.vue')
+    },
     {
         path: '/',
         component: {
