@@ -40,6 +40,9 @@
                   <b-nav-item>
                     <b-link :to="{ name:'tercero'}" class="nav-link-custom">Tercero</b-link>
                   </b-nav-item>
+                  <b-nav-item>
+                    <b-link :to="{ name:'formulario'}" class="nav-link-custom">Formulario</b-link>
+                  </b-nav-item>
                 </b-navbar-nav>
               </b-nav>
             </div>
